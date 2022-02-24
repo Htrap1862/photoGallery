@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #65C18C;
+    margin: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 1px 1px #1A374D;
+}
+
+
+main {
+    background-color: #FBF8F1;
+    margin: 0px;
+}
+
+footer {
+    background-color: #65C18C;
+    margin: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 15px 15px 0 0;
+}
+
+h1,h3,h2,h4,h5,h6,p {
+    margin: 0px;
+}
+
+nav {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: large;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: large;
+}
+
+aside {
+    width: 300px;
+    float: right;
+    height: auto;
+    background-color: #D1D1D1;
+    color: #1A374D;
+    border-radius: 15px;
+    padding: 1.5%;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+hr {
+    width: 16%;
+    border: 2px;
+    border-style: dotted none none none;
+    border-width: 8px;
+    color: #789395;
+}
+
+table {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 4%;
+    width: 100%;
+}
+/* My Classes */
+
+.heading_title {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #FFF1CE;
+    display: inline-block;
+    letter-spacing: 0.11rem;
+}
+
+.footer_title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #FFF1CE;
+    
+    padding-bottom: 4%;
+}
+
+.center_ {
+    text-align: center;
+}
+
+.nav_link:link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #FFF1CE;
+}
+
+.nav_link:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.nav_link:visited {
+    color: #FFF1CE;
+}
+
+.image_body {
+    height: 200px;
+    width: 300px;
+    border-radius: 15px 50px;
+    float: left;
+}
+
+.content_main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.content_text {
+    
+    font-family: 'Pacifico', cursive;
+    font-weight: 900;
+    margin-left: 2%;
+    font-size: 2rem;
+    color: #2C3333;
+    display: inline-block;
+    letter-spacing: 0.2rem;
+}
+
+.heading_text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 2%;
+    color: #1A374D;
+    margin-left: 2%;
+    margin-top: 1%;
+    padding-top: 1%;
+}
+
+/* ids */
+
+#black_ {
+    color: black;
+}
+
+#flower {
+    
+    height: 3%;
+    width: 3%;
+    margin-left: 1%;
+    padding-top: 1%;
+}
+
+.mainframe {
+    padding-top: 2%;
+}
